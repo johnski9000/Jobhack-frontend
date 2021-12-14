@@ -1,0 +1,57 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}
+
+body {
+  position: relative;
+  background-image: linear-gradient(#f3badb, #f6d19c);
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+/* body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+} */
+
+/* button {
+  margin: 5px;
+  border: none;
+  padding: 10px;
+  background: #ff914d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+.inputSignup {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  width: 328px;
+  height: 42px;
+  border: none;
+  background: rgba(196, 196, 196, 0.36);
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+img {
+  margin-left: 70%;
+} */
+
+body {
+  background-color: orange red;
+  flex-direction: column;
+  text-align: center;
+}

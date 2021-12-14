@@ -1,0 +1,22 @@
+.col-container {
+    margin: 8px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    min-width: 220px;
+    width: 300px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-title {
+    padding: 8px;
+    text-align: center;
+}
+
+.job-list {
+    padding: 8px;
+    flex-grow:1;
+    min-height: 100px;
+    height: 500px;
+}

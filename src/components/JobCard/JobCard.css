@@ -1,0 +1,27 @@
+.jobcard-container {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    font-weight: 500;
+}
+
+.jobcard-company {
+    font-weight: lighter;
+    text-align: right;
+}
+
+.jobcard-delete {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    background-color: white;
+    border: none;
+    color: #000;
+    cursor: pointer;
+}

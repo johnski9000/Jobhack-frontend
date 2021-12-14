@@ -1,0 +1,118 @@
+.card-container {
+  width: 25%;
+  min-width: 300px;
+  padding: 10px;
+  border: 2px solid #eee;
+  text-align: left;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card-salary {
+  margin-left: 5px;
+  margin-top: 50px;
+}
+
+.card-job-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-company {
+  margin-right: 5px;
+  text-align: right;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.card-description {
+  font-weight: lighter;
+  margin: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  display: block;
+  color: cornflowerblue;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.button {
+  margin-bottom: 10px;
+  color: white;
+  background-color: #ff914d;
+  border: none;
+  padding: 0.5em;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button:hover {
+  color: #ff914d;
+  background-color: white;
+  border: solid thin #ff914d;
+}
+
+.card-subrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.seeMoreButton {
+  margin-right: 15px;
+  color: rgb(0, 92, 167);
+  background-color: white;
+  border: none;
+  padding: 0.6em;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: normal;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.expand-icon {
+  cursor: pointer;
+}
+
+.add-to-list-icon {
+  height: 25px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.textBox {
+  display: flex;
+  justify-content: flex-start;
+  width: 287px;
+  height: 30px;
+  border: 1px solid orange;
+  overflow: hidden;
+  line-height: 30px;
+  padding: 5px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.textBox span {
+  position: absolute;
+  white-space: nowrap;
+  transform: translateX(0);
+  transition: 1s;
+}
+.textBox:hover span {
+  transform: translateX(calc(200px - 100%));
+}

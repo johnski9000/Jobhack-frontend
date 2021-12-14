@@ -1,0 +1,8 @@
+.jobs-component {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
